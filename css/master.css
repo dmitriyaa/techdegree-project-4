@@ -1,0 +1,96 @@
+
+/*-----------------------------------------------
+   Base Elements Styles
+-----------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #262b37;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+img {
+   max-width: 100%;
+}
+
+.authors_name {
+   font-family: 'Grand Hotel', cursive;
+   font-size: 1.5em;
+   color: #3C6795;
+}
+
+/*-----------------------------------------------
+   Base Layout Styles
+-----------------------------------------------*/
+/* ---- Containers ---- */
+
+.container {
+   padding-left: 2em;
+   padding-right: 2em;
+   margin: 0 auto;
+   max-width: 1100px;
+   min-height: calc(100vh - 5em);
+}
+
+/* ---- Search Box ---- */
+
+.search_box {
+   width: 90%;
+   margin: 1.5em auto 0;
+}
+
+input {
+   width: 100%;
+   border: 2px solid #ccc;
+   padding: 12px;
+   border-radius: 4px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* ---- Gallery ---- */
+
+.gallery li {
+   /*text-align: center;*/
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
+/*-----------------------------------------------
+   Media Queries
+   Note: in order not to break the layout, it is recommended to use thumbnails of the same size (200px200px)
+-----------------------------------------------*/
+/* ---- >480 ---- */
+@media (min-width: 480px) {
+   .search_box {
+      max-width: 50%;
+   }
+
+   .gallery li {
+      float: left;
+      width: 46%;
+      margin: 2%;
+   }
+}
+
+/* ---- >600 ---- */
+@media (min-width: 600px) {
+   .gallery li {
+      width: 29.3333%;
+   }
+}
+
+/* ---- >900 ---- */
+@media (min-width: 900px) {
+   .gallery li {
+      width: 21%;
+   }
+}
