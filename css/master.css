@@ -28,6 +28,10 @@ img {
    color: #3C6795;
 }
 
+footer {
+   margin-bottom: 1.5em;
+}
+
 /*-----------------------------------------------
    Base Layout Styles
 -----------------------------------------------*/
@@ -38,7 +42,7 @@ img {
    padding-right: 2em;
    margin: 0 auto;
    max-width: 1100px;
-   min-height: calc(100vh - 5em);
+   min-height: calc(100vh - 6.5em);
 }
 
 /* ---- Search Box ---- */
@@ -62,6 +66,36 @@ input {
    /*text-align: center;*/
    margin-top: 2em;
    margin-bottom: 2em;
+}
+
+/* ---- LightBox styling ---- */
+
+.lightboxOverlay {
+   opacity: .9;
+}
+
+.lb-dataContainer {
+   margin-top: 40px;
+}
+
+.lb-data .lb-caption {
+   display: block;
+   max-width: 600px;
+   margin: auto;
+}
+
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+   opacity: 1;
+   position: absolute;
+}
+
+.lb-nav a.lb-prev {
+   left: -100px;
+}
+
+.lb-nav a.lb-next {
+   right: -100px;
 }
 
 /*-----------------------------------------------
