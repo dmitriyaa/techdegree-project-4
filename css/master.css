@@ -69,6 +69,30 @@ input {
    margin-bottom: 2em;
 }
 
+/* ---- LightBox styling ---- */
+.lightbox {
+   margin-top: 10%;
+}
+
+.lightboxOverlay {
+   opacity: .9;
+}
+
+.lb-dataContainer {
+   margin-top: 40px;
+}
+
+.lb-data .lb-caption {
+   display: block;
+   max-width: 600px;
+   margin: auto;
+}
+
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+   opacity: 1;
+}
+
 /*-----------------------------------------------
    Media Queries
    Note: in order not to break the layout, it is recommended to use thumbnails of the same size (200px200px)
@@ -100,24 +124,8 @@ input {
    }
 
    /* ---- LightBox styling ---- */
-
-   .lightboxOverlay {
-      opacity: .9;
-   }
-
-   .lb-dataContainer {
-      margin-top: 40px;
-   }
-
-   .lb-data .lb-caption {
-      display: block;
-      max-width: 600px;
-      margin: auto;
-   }
-
    .lb-nav a.lb-prev,
    .lb-nav a.lb-next {
-      opacity: 1;
       position: absolute;
    }
 
