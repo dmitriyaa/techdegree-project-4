@@ -29,6 +29,7 @@ img {
 }
 
 footer {
+   clear: both;
    margin-bottom: 1.5em;
 }
 
