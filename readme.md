@@ -1,7 +1,7 @@
-# Treehouse Techdegree Project 4
+# Interactive Photo Gallery
+### Treehouse Techdegree Project 4
 One of 12 **_Front End Web Development_** projects at [Treehouse Techdegree Courses](https://teamtreehouse.com/techdegree/front-end-web-development)
 
-# Interactive Photo Gallery
 ## Project Desription
 In this project, you I created an interactive photo gallery using JavaScript and jQuery.
 At the top of the page I implemented a search area where photos hide and show depending on user input.
