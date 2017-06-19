@@ -7,7 +7,7 @@ In this project, you I created an interactive photo gallery using JavaScript and
 At the top of the page I implemented a search area where photos hide and show depending on user input.
 When the user clicks on a thumbnail, the photo displays in a lightbox.
 
-## Screenshot
+## Screenshots
 ![creenshot of the website](https://raw.githubusercontent.com/dmitriyaa/storage/master/screenshot--techdegree-project-4.png)
 
 Here is a [link](https://dmitriyaa.github.io/techdegree-project-4) to live demo.
