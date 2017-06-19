@@ -1,5 +1,5 @@
-# Treehouse Techdegree Project 4
-### Interactive Photo Gallery
+## Treehouse Techdegree Project 4
+# Interactive Photo Gallery
 One of 12 **_Front End Web Development_** projects at [Treehouse Techdegree Courses](https://teamtreehouse.com/techdegree/front-end-web-development)
 
 ## Project Desription
